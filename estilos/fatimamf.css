@@ -8,6 +8,10 @@ html{
 	font-size: 62.5%;
 	color: gray;
 }
+.cuerpo{
+	background: rgb(163,237,255);
+	background: linear-gradient(180deg, rgba(163,237,255,1) 0%, rgba(237,235,235,1) 100%);
+}
 .encabezadoContainer{
 	display: flex;
 	flex-direction: column;
@@ -79,6 +83,116 @@ button:hover{
 	max-width: 1024px;
 	margin: auto;
 }
+.novedades{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.fotoDeNovedades{
+	position: center;
+	width: 80vw;
+	border-radius: 7px;
+	box-shadow: 1px 1px 1px gray;
+	margin: 5px	0;
+}
+.tituloPrincipal{
+	color: white;
+	text-align: center;
+	font-size: 3rem;
+	background-color: rgba(46, 46, 146, 1.0);
+	margin: 5px auto;
+	width: 80vw;
+	border-radius: 7px;
+}
+.seccionNosotros{
+	font-size: 2.5rem;
+	text-align: justify;
+	padding: 10px;
+}
+.galeriaDeProductos{
+	margin: 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.producto{
+	text-align: center;
+	margin-bottom: 10px;
+	box-shadow: 1px 1px 2px #888888;
+	background-color: rgba(245, 245, 245, 1.0);
+	border-radius: 7px;
+}
+.fotoDeProducto{
+	width: 90vw;
+	border-radius: 7px;	
+}
+.tituloDeProducto{
+	font-size: 2.5rem;
+	color: darkgrey;	
+}
+.precio{
+	font-weight: bold;
+	font-size: 2.2rem;
+	color:  gray;
+	border-radius: 5px;
+	padding: 5px 0;
+}
+.galeriaDeServicios{
+	margin: 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.servicio{
+	text-align: center;
+	margin-bottom: 10px;
+	box-shadow: 1px 1px 2px #888888;
+	background-color: rgba(245, 245, 245, 1.0);
+	border-radius: 7px;
+}
+.fotoDeServicio{
+	width: 90%;
+	border-radius: 7px;
+}
+.tituloDeServicio{
+	font-size: 2.5rem;
+	color: rgba(46, 46, 146, 1.0);	
+}
+.seccionDeContacto{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.articuloDeContacto{
+	width: 90vw;
+	margin: 15px auto;
+	padding: 5px;
+	text-align: center;
+	box-shadow: 1px 1px 2px #888888;
+	background-color: rgba(245, 245, 245, 1.0);
+	border-radius: 7px;
+}
+.articuloDeContacto h3{
+	font-size: 2.0rem;
+	color: rgba(46, 46, 146, 1.0);
+	padding: 5px 0;
+}
+.textosFormulario{
+	font-size: 1.8rem;
+	margin: 5px;
+	border: none;
+}
+iframe{
+	width: 90%;
+	height: 300px;
+	border: none;
+}
+fieldset{
+	width: 80vw;
+	border: none;
+}
 .pieContainer{
 	display: flex;
 	justify-content: center;
@@ -94,4 +208,18 @@ button:hover{
 .iconoDePie{
 	width: 40px;
 	margin: 15px 15px;
+}
+.iconoDePie:hover{
+	transform: scale3d(1.2, 1.2, 1.2);
+	cursor: pointer;
+}
+.iconoWap{
+	display: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+.contactoPorWap img:hover{
+	transform: scale3d(1.2, 1.2, 1.2);
+	cursor: pointer;
 }
