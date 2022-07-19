@@ -223,3 +223,8 @@ fieldset{
 	transform: scale3d(1.2, 1.2, 1.2);
 	cursor: pointer;
 }
+@media screen and (min-width: 320px) {
+  body {
+   
+  }
+}
