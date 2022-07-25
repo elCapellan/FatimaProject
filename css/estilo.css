@@ -69,6 +69,7 @@ h1, h2{
 	background-color: rgba(46, 46, 146, 1.0);
 	border-radius: 7px;
 	font-size: 2rem;
+	padding: 5px;
 }
 .btn-color{
 	color: white;
