@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 62.5%;
+	color: gray;
+}
+.cuerpo{
+	background: rgb(163,237,255);
+	background: linear-gradient(180deg, rgba(163,237,255,1) 0%, rgba(237,235,235,1) 100%);
+}
+.encabezado{
+	font-size: 2.0rem;
+}
+.encabezado img{
+	width: 250px;
+}
+.nav-link{
+	color: rgba(46, 46, 146, 1.0);
+}
+.nav-link:hover{
+	color: darkgray;
+}
+.carousel{
+	max-width: 800px;
+	margin: auto;
+}
+.tituloCarousel{
+	font-size: 4rem;
+	background-color: rgba(46, 46, 146, 0.7);
+}
+.parrafoCarousel{
+	font-size: 2.5;
+}
+.pieContainer{
+	display: flex;
+	justify-content: center;
+}
+.tituloDePie{
+	color: rgba(46, 46, 146, 1.0);
+	text-transform: uppercase;
+	font-size: 1.9rem;
+	text-align: center;
+	padding: 8px 0;
+	margin: auto;
+}
+.iconoDePie{
+	width: 40px;
+	margin: 15px 15px;
+}
+.iconoDePie:hover{
+	transform: scale3d(1.2, 1.2, 1.2);
+	cursor: pointer;
+}
+.bg-b{
+	background-color: white;
+	padding-bottom: 5px;
+}
+figure{
+	background-color: rgba(245, 245, 245, 1.0);
+	padding: 5px;
+}
+h1, h2{
+	color: white;
+	text-align: center;
+	background-color: rgba(46, 46, 146, 1.0);
+	border-radius: 7px;
+	font-size: 2rem;
+}
+.btn-color{
+	color: white;
+	background-color: rgba(46, 46, 146, 1.0);
+}
+p{
+	font-size: 2.0rem;
+}
+.tituloDeProducto{
+	color: rgba(46, 46, 146, 1.0);
+	text-align: center;
+	font-size: 2rem;
+}
+.precio{
+	text-align: center;
+	color: gray;
+}
+.seccionDeContacto{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.articuloDeContacto{
+	width: 90vw;
+	margin: 15px auto;
+	padding: 5px;
+	text-align: center;
+	box-shadow: 1px 1px 2px #888888;
+	background-color: rgba(245, 245, 245, 1.0);
+	border-radius: 7px;
+}
+.articuloDeContacto h3{
+	font-size: 2.0rem;
+	color: rgba(46, 46, 146, 1.0);
+	padding: 5px 0;
+}
+.textosFormulario{
+	font-size: 1.8rem;
+	margin: 5px;
+	border: none;
+}
+iframe{
+	width: 90%;
+	height: 300px;
+	border: none;
+}
+fieldset{
+	width: 80vw;
+	border: none;
+}
+.contactoPorWap{
+	padding: 5px;
+	font-size: 2rem;
+}
+.contactoPorWap img:hover{
+	transform: scale3d(1.2, 1.2, 1.2);
+	cursor: pointer;
+}
