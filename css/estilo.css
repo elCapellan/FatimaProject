@@ -123,8 +123,27 @@ fieldset{
 .contactoPorWap{
 	padding: 5px;
 	font-size: 2rem;
+	margin-right: 5px;
 }
 .contactoPorWap img:hover{
 	transform: scale3d(1.2, 1.2, 1.2);
 	cursor: pointer;
+}
+button{
+	background-color: rgba(46, 46, 146, 1.0);
+	font-size: 2rem;
+	padding: 1px 5px;
+	border-radius: 7px;
+	color: white;
+	border: none;
+}
+button:hover{
+	background-color: rgba(15, 15, 150, 1.0);
+}
+.textoFormu{
+	font-size: 2rem;
+}
+.textoFormu1{
+	color: darkgray;
+	font-size: 2rem;
 }
