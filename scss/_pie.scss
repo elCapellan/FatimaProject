@@ -1,0 +1,20 @@
+.pieContainer{
+	display: flex;
+	justify-content: center;
+	.tituloDePie{
+		color: $azulPrincipal;
+		text-transform: uppercase;
+		font-size: $fuenteMediana;
+		text-align: center;
+		padding: 8px 0;
+		margin: auto;
+		.iconoDePie{
+			width: 40px;
+			margin: 15px 15px;
+			&:hover{
+				transform: scale3d(1.2, 1.2, 1.2);
+				cursor: pointer;
+			}
+		}
+	}
+}

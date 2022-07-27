@@ -1,0 +1,24 @@
+{
+  "name": "fatimaproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/estilos.scss  css/estilos.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elCapellan/FatimaProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elCapellan/FatimaProject/issues"
+  },
+  "homepage": "https://github.com/elCapellan/FatimaProject#readme",
+  "dependencies": {
+    "sass": "^1.54.0"
+  }
+}
