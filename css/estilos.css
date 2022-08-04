@@ -1,18 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;700&display=swap");
-.encabezado {
-  background-color: rgb(245, 245, 245);
+.botones, .botones-prod {
+  background-color: rgb(46, 46, 146);
+  color: rgb(245, 245, 245);
   font-size: 2em;
 }
-.encabezado img {
-  width: 250px;
+.botones:hover, .botones-prod:hover {
+  background-color: rgb(28, 48, 228);
+  color: rgb(245, 245, 245);
 }
-.encabezado .nav-link {
-  color: rgb(46, 46, 146);
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 2em;
+
+.botones-prod:hover {
+  background-color: green;
 }
-.encabezado .nav-link:hover {
-  color: rgb(128, 128, 128);
+
+.bg-col-alt {
+  background-color: green;
 }
 
 * {
@@ -32,7 +34,7 @@ html .cuerpo figure {
   background-color: rgb(245, 245, 245);
   padding: 5px;
 }
-html .cuerpo h1, html .cuerpo h2 {
+html h1, html h2 {
   color: rgb(245, 245, 245);
   text-align: center;
   background-color: rgb(46, 46, 146);
@@ -40,24 +42,24 @@ html .cuerpo h1, html .cuerpo h2 {
   font-size: 2em;
   padding: 5px;
 }
-html .cuerpo h3 {
+html h3 {
   font-size: 2em;
   color: rgb(46, 46, 146);
   padding: 5px 0;
 }
-html .cuerpo h3 p {
+html h3 p {
   font-size: 2em;
 }
-html .cuerpo h3 iframe {
+html h3 iframe {
   width: 90%;
   height: 300px;
   border: none;
 }
-html .cuerpo h3 fieldset {
+html h3 fieldset {
   width: 80vw;
   border: none;
 }
-html .cuerpo h3 button {
+html h3 button {
   background-color: rgb(46, 46, 146);
   font-size: 2em;
   padding: 1px 5px;
@@ -65,8 +67,31 @@ html .cuerpo h3 button {
   color: rgb(245, 245, 245);
   border: none;
 }
-html .cuerpo h3 button:hover {
+html h3 button:hover {
   background-color: rgb(28, 48, 228);
+}
+html .parrafo {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: rgb(128, 128, 128);
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+}
+
+.encabezado {
+  background-color: rgb(245, 245, 245);
+  font-size: 2em;
+}
+.encabezado img {
+  width: 250px;
+}
+.encabezado .nav-link {
+  color: rgb(46, 46, 146);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 2em;
+}
+.encabezado .nav-link:hover {
+  color: rgb(128, 128, 128);
 }
 
 .tituloDeProducto {
@@ -78,6 +103,7 @@ html .cuerpo h3 button:hover {
 .precio {
   text-align: center;
   color: rgb(128, 128, 128);
+  font-size: 3em;
 }
 
 .articuloDeContacto {
@@ -102,23 +128,23 @@ html .cuerpo h3 button:hover {
   font-size: 2em;
 }
 
-.pieContainer {
-  display: flex;
-  justify-content: center;
-}
-.pieContainer .tituloDePie {
+.pie .tituloDePie {
   color: rgb(46, 46, 146);
   text-transform: uppercase;
   font-size: 2em;
   text-align: center;
-  padding: 8px 0;
+  padding: 15px 0;
   margin: auto;
 }
-.pieContainer .tituloDePie .iconoDePie {
-  width: 40px;
-  margin: 15px 15px;
+.pie .pieContainer {
+  display: flex;
+  justify-content: center;
 }
-.pieContainer .tituloDePie .iconoDePie:hover {
+.pie .pieContainer .iconoDePie {
+  width: 45px;
+  margin: 10px 15px;
+}
+.pie .pieContainer .iconoDePie:hover {
   transform: scale3d(1.2, 1.2, 1.2);
   cursor: pointer;
 }

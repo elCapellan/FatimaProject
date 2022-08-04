@@ -1,0 +1,45 @@
+//extend
+.botones{
+				background-color: $azulPrincipal;
+				color: $blanco;
+				font-size: $fuenteMediana;
+				&:hover{
+					background-color: $azulClaro;
+					color: $blanco;
+
+}
+
+
+}
+.botones-prod{
+	@extend .botones;
+	&:hover{
+		background-color: green;
+
+}
+}
+
+//mixins
+
+@mixin texto($tamanio, $interlineado, $color,){
+	font-size: $tamanio;
+	line-height: $interlineado;
+	color: $color;
+	font-family: $fuenteSecundaria;
+	padding: 10px;
+}
+
+//map
+
+$colorAlterno:(
+	'fondo': green,
+	'fondoActivo': darkgreen,
+	);
+
+.bg-col-alt{
+	background-color: map-get($map:$colorAlterno,$key:'fondo');
+
+}
+
+
+
