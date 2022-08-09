@@ -26,17 +26,12 @@ html{
 				padding: 5px;
 			}
 			h3{
-				font-size: $fuenteMediana;
+				font-size: 2.5rem;
 				color: $azulPrincipal;
 				padding: 5px 0;
 			p{
 				font-size: $fuenteMediana;
 			}
-			iframe{
-				width: $ancho-90;
-				height: 300px;
-				border: none;
-				}
 			fieldset{
 				width: 80vw;
 				border: none;
@@ -56,6 +51,16 @@ html{
 			}
 			.parrafo{
 				@include texto(2.0rem, 2.5rem, $gris);
+			}
+			.tituloCarousel{
+				font-size: $fuenteGrande;
+			}
+			.parrafoCarousel{
+				font-size: $fuenteMediana;
+			}
+			.carousel .w-100-f{
+				width: 80vw;
+				margin: auto;
 			}
 			}
 

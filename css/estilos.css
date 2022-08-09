@@ -43,17 +43,12 @@ html h1, html h2 {
   padding: 5px;
 }
 html h3 {
-  font-size: 2em;
+  font-size: 2.5rem;
   color: rgb(46, 46, 146);
   padding: 5px 0;
 }
 html h3 p {
   font-size: 2em;
-}
-html h3 iframe {
-  width: 90%;
-  height: 300px;
-  border: none;
 }
 html h3 fieldset {
   width: 80vw;
@@ -77,13 +72,23 @@ html .parrafo {
   font-family: "Poppins", sans-serif;
   padding: 10px;
 }
+html .tituloCarousel {
+  font-size: 3em;
+}
+html .parrafoCarousel {
+  font-size: 2em;
+}
+html .carousel .w-100-f {
+  width: 80vw;
+  margin: auto;
+}
 
 .encabezado {
   background-color: rgb(245, 245, 245);
-  font-size: 2em;
+  font-size: 1.5rem;
 }
 .encabezado img {
-  width: 250px;
+  width: 300px;
 }
 .encabezado .nav-link {
   color: rgb(46, 46, 146);
@@ -114,18 +119,25 @@ html .parrafo {
   box-shadow: 1px 1px 2px #888888;
   background-color: rgb(245, 245, 245);
   border-radius: 7px;
+  font-size: 2rem;
+}
+.articuloDeContacto input {
+  font-size: 2rem;
+}
+.articuloDeContacto button {
+  background-color: rgb(46, 46, 146);
+  color: rgb(245, 245, 245);
+  padding: 2px 15px;
+  border: none;
+  border-radius: 5px;
 }
 .articuloDeContacto .contactoPorWap {
   padding: 5px;
-  font-size: 2em;
   margin-right: 5px;
 }
-.articuloDeContacto .contactoPorWap .textoFormu {
-  font-size: 2em;
-}
-.articuloDeContacto .contactoPorWap .textoFormu1 {
-  color: rgb(128, 128, 128);
-  font-size: 2em;
+.articuloDeContacto .mapa {
+  width: 80vw;
+  border: none;
 }
 
 .pie .tituloDePie {

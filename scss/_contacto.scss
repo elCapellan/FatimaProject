@@ -6,17 +6,23 @@
 	box-shadow: 1px 1px 2px #888888;
 	background-color: rgba(245, 245, 245, 1.0);
 	border-radius: 7px;
-
+	font-size: 2rem;
+	input{
+		font-size: 2rem;
+	}
+	button{
+		background-color: $azulPrincipal;
+		color: $blanco;
+		padding: 2px 15px;
+		border: none;
+		border-radius: 5px;
+	}
 	.contactoPorWap{
 		padding: 5px;
-		font-size: $fuenteMediana;
 		margin-right: 5px;
-		.textoFormu{
-			font-size: $fuenteMediana;
-		}
-		.textoFormu1{
-			color: $gris;
-			font-size: $fuenteMediana;
-}
 }	
+.mapa{
+	width: 80vw;
+	border: none;
+}
 }
