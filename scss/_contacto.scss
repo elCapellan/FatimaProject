@@ -1,0 +1,28 @@
+	.articuloDeContacto{
+	width: 90vw;
+	margin: 15px auto;
+	padding: 5px;
+	text-align: center;
+	box-shadow: 1px 1px 2px #888888;
+	background-color: rgba(245, 245, 245, 1.0);
+	border-radius: 7px;
+	font-size: 2rem;
+	input{
+		font-size: 2rem;
+	}
+	button{
+		background-color: $azulPrincipal;
+		color: $blanco;
+		padding: 2px 15px;
+		border: none;
+		border-radius: 5px;
+	}
+	.contactoPorWap{
+		padding: 5px;
+		margin-right: 5px;
+}	
+.mapa{
+	width: 80vw;
+	border: none;
+}
+}

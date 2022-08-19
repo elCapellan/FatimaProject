@@ -1,0 +1,69 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	font-size: 62.5%;
+	color: $gris;
+	
+
+		.cuerpo{
+			background: rgb(163,237,255);
+			background: linear-gradient(180deg, rgba(163,237,255,1) 0%, rgba(237,235,235,1) 100%);
+			figure{
+			background-color: $blanco;
+			padding: 5px;
+			
+			}
+			}	
+			h1, h2{
+				color: $blanco;
+				text-align: center;
+				background-color: $azulPrincipal;
+				border-radius: 7px;
+				font-size: $fuenteMediana;
+				padding: 5px;
+			}
+			h3{
+				font-size: 2.5rem;
+				color: $azulPrincipal;
+				padding: 5px 0;
+			p{
+				font-size: $fuenteMediana;
+			}
+			fieldset{
+				width: 80vw;
+				border: none;
+			}
+			button{
+				background-color: $azulPrincipal;
+				font-size: $fuenteMediana;
+				padding: 1px 5px;
+				border-radius: 7px;
+				color: $blanco;
+				border: none;
+				&:hover{
+				background-color: $azulClaro;
+
+				}
+			}
+			}
+			.parrafo{
+				@include texto(2.0rem, 2.5rem, $gris);
+			}
+			.tituloCarousel{
+				font-size: $fuenteGrande;
+			}
+			.parrafoCarousel{
+				font-size: $fuenteMediana;
+			}
+			.carousel .w-100-f{
+				width: 80vw;
+				margin: auto;
+			}
+			}
+
+		
+
+

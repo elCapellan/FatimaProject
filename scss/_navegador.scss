@@ -1,0 +1,16 @@
+//anidado
+.encabezado{
+	background-color: $blanco;
+	font-size: 1.5rem;
+	img{
+		width: 300px;
+	}
+	.nav-link{
+		color:$azulPrincipal;
+		font-family: $fuentePrincipal;
+		font-size: $fuenteMediana;
+		&:hover{
+			color: $gris;
+		}
+	}
+}
