@@ -20,6 +20,6 @@
   "homepage": "https://github.com/elCapellan/FatimaProject#readme",
   "dependencies": {
     "bootstrap": "^5.2.0",
-    "sass": "^1.54.3"
+    "sass": "^1.54.5"
   }
 }

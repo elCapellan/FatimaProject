@@ -82,18 +82,23 @@ html .carousel .w-100-f {
   width: 80vw;
   margin: auto;
 }
+html .nosParagraphs {
+  height: 80vh;
+  margin: auto;
+}
 
 .encabezado {
   background-color: rgb(245, 245, 245);
   font-size: 1.5rem;
 }
 .encabezado img {
-  width: 300px;
+  width: 350px;
 }
 .encabezado .nav-link {
   color: rgb(46, 46, 146);
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 2em;
+  margin-right: 15px;
+  font-size: 1.5em;
 }
 .encabezado .nav-link:hover {
   color: rgb(128, 128, 128);
