@@ -13,7 +13,7 @@ html{
 			background: linear-gradient(180deg, rgba(163,237,255,1) 0%, rgba(237,235,235,1) 100%);
 			figure{
 			background-color: $blanco;
-			padding: 5px;
+			padding: 14px;
 			
 			}
 			}	
@@ -47,6 +47,7 @@ html{
 				background-color: $azulClaro;
 
 				}
+
 			}
 			}
 			.parrafo{
@@ -54,18 +55,43 @@ html{
 			}
 			.tituloCarousel{
 				font-size: $fuenteGrande;
+				color: $blanco;
+				text-shadow: 0px 0px 9px rgba(0,0,0,1);
 			}
 			.parrafoCarousel{
 				font-size: $fuenteMediana;
+				color: $blanco;
+				text-shadow: 0px 0px 9px rgba(0,0,0,1);
 			}
 			.carousel .w-100-f{
-				width: 80vw;
+				height: 85vh;
 				margin: auto;
 			}
 			.nosParagraphs{
-				height: 80vh;
+				height: 70vh;
 				margin: auto;
 			}
+			.rights{
+					text-align: center;
+					margin-top: 15px;
+					
+				}
+			}
+
+			.cuerpoError{
+				background: linear-gradient(180deg, rgba(163,237,255,1) 0%, rgba(237,235,235,1) 100%);
+				.tituloError{
+					color: $blanco;
+					text-align: center;
+				}
+				.parrafoError{
+						font-size: $fuenteMediana;
+						text-align: center;
+					}
+				.imagenError{
+					display: block;
+ 					margin: 5px auto;
+				}
 			}
 
 		

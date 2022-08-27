@@ -1,3 +1,13 @@
+.galeriaDeProductos{
+	width: 95vw;
+
+.prod{
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.29);
+-webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.29);
+-moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.29);;
+margin: 7px auto;
+width: 24%;
+border-radius: 5px;
 .tituloDeProducto{
 	color: $azulPrincipal;
 	text-align: center;
@@ -5,6 +15,10 @@
 }
 .precio{
 	text-align: center;
-	color: $gris;
+	color: gray;
 	font-size: $fuenteGrande;
+	font-weight: bolder;
+
+	}
+}
 }
