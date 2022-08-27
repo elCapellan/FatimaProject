@@ -32,7 +32,7 @@ html .cuerpo {
 }
 html .cuerpo figure {
   background-color: rgb(245, 245, 245);
-  padding: 5px;
+  padding: 14px;
 }
 html h1, html h2 {
   color: rgb(245, 245, 245);
@@ -74,17 +74,41 @@ html .parrafo {
 }
 html .tituloCarousel {
   font-size: 3em;
+  color: rgb(245, 245, 245);
+  text-shadow: 0px 0px 9px rgb(0, 0, 0);
 }
 html .parrafoCarousel {
   font-size: 2em;
+  color: rgb(245, 245, 245);
+  text-shadow: 0px 0px 9px rgb(0, 0, 0);
 }
 html .carousel .w-100-f {
-  width: 80vw;
+  height: 85vh;
   margin: auto;
 }
 html .nosParagraphs {
-  height: 80vh;
+  height: 70vh;
   margin: auto;
+}
+html .rights {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.cuerpoError {
+  background: linear-gradient(180deg, rgb(163, 237, 255) 0%, rgb(237, 235, 235) 100%);
+}
+.cuerpoError .tituloError {
+  color: rgb(245, 245, 245);
+  text-align: center;
+}
+.cuerpoError .parrafoError {
+  font-size: 2em;
+  text-align: center;
+}
+.cuerpoError .imagenError {
+  display: block;
+  margin: 5px auto;
 }
 
 .encabezado {
@@ -104,16 +128,27 @@ html .nosParagraphs {
   color: rgb(128, 128, 128);
 }
 
-.tituloDeProducto {
+.galeriaDeProductos {
+  width: 95vw;
+}
+.galeriaDeProductos .prod {
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.29);
+  margin: 7px auto;
+  width: 24%;
+  border-radius: 5px;
+}
+.galeriaDeProductos .prod .tituloDeProducto {
   color: rgb(46, 46, 146);
   text-align: center;
   font-size: 2em;
 }
-
-.precio {
+.galeriaDeProductos .prod .precio {
   text-align: center;
-  color: rgb(128, 128, 128);
+  color: gray;
   font-size: 3em;
+  font-weight: bolder;
 }
 
 .articuloDeContacto {
